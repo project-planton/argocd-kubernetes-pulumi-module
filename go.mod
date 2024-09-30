@@ -1,8 +1,6 @@
 module github.com/plantoncloud/argocd-kubernetes-pulumi-module
 
-go 1.23.0
-
-toolchain go1.23.1
+go 1.23.1
 
 //replace github.com/plantoncloud/project-planton => ../../plantoncloud/project-planton
 
@@ -16,8 +14,8 @@ require (
 )
 
 require (
-	github.com/plantoncloud/project-planton/apis v0.0.0-20240928044211-9168d6c7a46b
-	github.com/plantoncloud/pulumi-module-golang-commons v0.0.0-20240928073143-7b29b143661c
+	buf.build/gen/go/plantoncloud/project-planton/protocolbuffers/go v1.34.2-20240930080942-f846802b359d.2
+	github.com/plantoncloud/pulumi-module-golang-commons v0.0.0-20240930122638-5bcefac53812
 )
 
 require (
