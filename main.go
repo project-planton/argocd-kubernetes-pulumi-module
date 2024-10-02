@@ -1,7 +1,7 @@
 package main
 
 import (
-	argocdkubernetesv1 "buf.build/gen/go/plantoncloud/project-planton/protocolbuffers/go/project/planton/apis/provider/kubernetes/argocdkubernetes/v1"
+	argocdkubernetesv1 "buf.build/gen/go/plantoncloud/project-planton/protocolbuffers/go/project/planton/provider/kubernetes/argocdkubernetes/v1"
 	"github.com/pkg/errors"
 	"github.com/plantoncloud/argocd-kubernetes-pulumi-module/pkg"
 	"github.com/plantoncloud/pulumi-module-golang-commons/pkg/stackinput"
